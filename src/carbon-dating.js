@@ -24,7 +24,7 @@ function dateSample(sampleActivity) {
     !Boolean(Number(sampleActivity)) ||
     Number(sampleActivity) < 0
   ) {
-    return false;
+    return false
   }
 
   let k = 0.693 / HALF_LIFE_PERIOD;
